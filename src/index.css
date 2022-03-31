@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+.calulator--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+.keypad--container {
+  display: grid;
+  grid-template-columns: 150px [col-start] 150px [col-start] 150px [col-start];
+  height: 400px;
+}
+.display--container {
+  display: flex;
+  border: 2px black solid;
+  width: 447px;
+  height: 50px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-family: "Inter", san-sanif;
+}
+.clear--btn {
+  background-color: red;
+}
+.numPad {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+.numPad:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.operation--pad {
+  background-color: orange;
+  font-size: 36px;
+}
+.apple--logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
